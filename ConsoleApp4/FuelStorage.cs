@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FuelstorageCs
+namespace FuelStorageCs
 {
-    class Fuelstorage
+    class FuelStorage
     {
         private int durability;
         private double contain;
         private bool status;
 
-        public Fuelstorage(int d, double c, bool s)
+        public FuelStorage(int d, double c, bool s)
         {
             durability = d;
             contain = c;

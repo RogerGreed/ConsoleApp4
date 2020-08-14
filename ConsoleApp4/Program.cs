@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using FuelstorageCs;
+using FuelStorageCs;
 
 namespace ConsoleApp4
 {
@@ -13,7 +13,7 @@ namespace ConsoleApp4
             Wheels,
             Fuel
         }
-        public ERROR_ID starting(Engine e, Fuelstorage f, Wheels w)
+        public ERROR_ID starting(Engine e, FuelStorage f, Wheels w)
         {
             if (!e.Status)
                 return ERROR_ID.Engine;

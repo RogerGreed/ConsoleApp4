@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using FuelstorageCs;
+using FuelStorageCs;
 
 namespace ConsoleApp4
 {
@@ -25,7 +25,7 @@ namespace ConsoleApp4
             return status;
         }
 
-        public bool start(Fuelstorage f)
+        public bool start(FuelStorage f)
         {
             return f.Contain > 0;
         }
