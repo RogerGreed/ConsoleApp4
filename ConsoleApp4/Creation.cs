@@ -10,14 +10,11 @@ namespace ConsoleApp4
         private DateTime date;
         private string place;
 
-        public Creation()
-        {
-            date = new DateTime();
-        }
-        public Creation(string m, string p)
+        public Creation(string m, string p, int y, int mo)
         {
             mark = m;
             place = p;
+            date = new DateTime(y, mo, 1, 0, 0, 0);
         }
 
         public string Mark

@@ -18,7 +18,7 @@ namespace FuelStorageCs
         }
 
 
-        public double refuel()
+        public double Refuel()
         {
             if (contain > 10.0)
             {

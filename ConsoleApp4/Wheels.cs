@@ -12,11 +12,11 @@ namespace ConsoleApp4
         {
             wheels = new List<Wheel>();
         }
-        public void add(Wheel wheel)
+        public void Add(Wheel wheel)
         {
             wheels.Add(wheel);
         }
-        public void remove(Wheel wheel)
+        public void Remove(Wheel wheel)
         {
             wheels.Remove(wheel);
         }
@@ -27,9 +27,10 @@ namespace ConsoleApp4
                 if (wheel.Status == false)
                 {
                     status = false;
-                    break;
+                    return status;
                 }
             }
+            status = true;
             return status;
         }
         public bool Status

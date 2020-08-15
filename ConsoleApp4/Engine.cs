@@ -20,14 +20,21 @@ namespace ConsoleApp4
             status = s;
         }
 
-        public bool start()
+        public bool Start()
         {
             return status;
         }
 
-        public bool start(FuelStorage f)
+        public bool Start(FuelStorage f)
         {
-            return f.Contain > 0;
+            if (status == false)
+            {
+                return status;
+            }
+            else
+            {
+                return status = f.Contain > 0;
+            }
         }
         public int Power
         {
